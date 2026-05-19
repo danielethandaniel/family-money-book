@@ -42,10 +42,6 @@ powershell -ExecutionPolicy Bypass -File .\build-apk.ps1
 
 构建完成后会生成未签名的 `family-money-book.apk`。如果设置了 `SIGNING_KEYSTORE`、`SIGNING_STOREPASS`、`SIGNING_KEYPASS` 和 `SIGNING_ALIAS`，脚本会继续完成签名。
 
-```text
-C:\Users\Administrator\Desktop\family-money-book\family-money-book.apk
-```
-
 脚本会执行资源编译、Java 编译、DEX 打包、zipalign、签名和签名校验。
 
 ## 安装
